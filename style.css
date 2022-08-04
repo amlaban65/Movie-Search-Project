@@ -128,7 +128,6 @@ main{
 .tag:hover,
 .tag:focus {
     transform: scale(1.1);
-    /* transform: translateY(-0.25em); */
 }
 
 .tag.highlight{
@@ -152,6 +151,12 @@ main{
 }
 #prev {
     color: white;
+}
+#prev:hover,
+#prev:focus,
+#next:hover,
+#next:focus {
+    transform: scale(1.1);
 }
 
 .page.disabled{
